@@ -92,7 +92,6 @@ body {
   letter-spacing: -1px;
 }
 
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -136,6 +135,10 @@ body {
   .carousel-inner > .item > img {
     height: 300px;
   }
+
+  #google-map {
+    height: 300px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -151,6 +154,9 @@ body {
       height: 500px;
     }
     .carousel-inner > .item > img {
+      height: 500px;
+    }
+    #google-map {
       height: 500px;
     }
 }
